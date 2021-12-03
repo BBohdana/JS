@@ -38,10 +38,23 @@
 
 
     //4
-    let x = prompt('enter key');
+    let x = {
+        name: 'john',
+        age: 25
+    }
     if (typeof x === 'number') {
         document.write(1);
     }
+    else if (typeof x === 'string') {
+        document.write(2); }
+    else if (typeof x === 'boolean') {
+        document.write(3); }
+    else if (typeof x === 'object') {
+        document.write(4); }
+    else {
+        document.write('no type');
+    }
+
 
 
     //5
@@ -52,29 +65,27 @@
         document.write('Вчимося ОНЛАЙН!');
     }
 
-
-    //6
-    let value = +prompt('Введіть цифру від 1 до 5');
-    switch (value) {
-        case 1:
-            document.write('Авто');
-            break;
-        case 2:
-            document.write('Мото');
-            break;
-        case 3:
-            document.write('Телефон');
-            break;
-        case 4:
-            document.write('Квартира');
-            break;
-        case 5:
-            document.write('100000000');
-            break;
-        default:
-            document.write('Невірне число');
-    }
-
+        //6
+        let value = +prompt('Введіть цифру від 1 до 5');
+        switch (value) {
+            case 1:
+                document.write('Авто');
+                break;
+            case 2:
+                document.write('Мото');
+                break;
+            case 3:
+                document.write('Телефон');
+                break;
+            case 4:
+                document.write('Квартира');
+                break;
+            case 5:
+                document.write('100000000');
+                break;
+            default:
+                document.write('Невірне число');
+                break; }
 
 
 </script>
