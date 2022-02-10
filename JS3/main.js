@@ -27,6 +27,8 @@ while (k < 20) {
     document.write(`<h1>item ${k}</h1>`);
     k++
 }
+//4
+
 let arr = [25, 45,454, 23, 56, 78, 45, 34,45,33];
 for (let i = 0; i <=9; i++) {
     document.write(arr[i]);
@@ -60,6 +62,8 @@ for (let i = 0; i<= str.length; i++) {
         document.write(str[i]);
     }
 }
+
+//5
 let emptyarrray = [];
 emptyarrray[0] = 'tom';
 emptyarrray[1] = 'jerry';
